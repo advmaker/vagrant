@@ -1,0 +1,9 @@
+vagrant
+=======
+Apache2
+php
+mysql
+nodejs
+bower
+glup
+composer
