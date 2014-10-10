@@ -13,6 +13,7 @@ $script = <<SCRIPT
 
     sed -i "s#DocumentRoot /var/www/html#DocumentRoot ${VAGRANT_SYNCED_DIR}#" /etc/apache2/sites-enabled/000-default.conf
     sed -i "s#<Directory /var/www/html>#<Directory ${VAGRANT_SYNCED_DIR}/>#" /etc/apache2/sites-enabled/000-default.conf
+    rm -R /var/www/html/
 
     # php, mysql, nodejs
     apt-get -y install nodejs php5-cli libapache2-mod-php5 php5-mysql php5-curl npm
