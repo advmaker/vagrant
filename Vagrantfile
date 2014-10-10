@@ -3,7 +3,6 @@
 
 # bootstrap script partially copied from https://github.com/Lukx/vagrant-lamp
 $script = <<SCRIPT
-
     export VAGRANT_SYNCED_DIR=/var/www # or put $1
 
     apt-get update
