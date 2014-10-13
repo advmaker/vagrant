@@ -7,3 +7,4 @@ nodejs
 bower
 glup
 composer
+git
