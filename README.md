@@ -5,6 +5,6 @@ php
 mysql
 nodejs
 bower
-glup
+gulp
 composer
 git
